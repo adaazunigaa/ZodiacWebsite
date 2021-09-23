@@ -1,0 +1,104 @@
+body{
+    background: url("images/background.jpg") center center no-repeat;
+    background-repeat: repeat;
+    font-size: 16px;
+    text-align: center;
+    
+} 
+
+.logo{
+    display: block;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, .9);
+    width: 12%;
+    height: 12%;
+    border-radius: 25px;
+    margin-top: -2px;
+    display: center;
+
+}
+
+
+nav{
+    margin-top: 2px;
+    text-align: center;
+    margin-right: auto;
+    
+}
+
+nav ul{
+    list-style: none;
+    padding-top: 0px;
+}
+
+nav ul li{
+    display:inline-block;
+    margin: 0;
+}
+
+a{
+    color: white;
+    font-family: "Happy Monkey";
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 5px;
+}
+
+a:link{
+    color:white;  
+}
+
+a:visited{
+    color:white;
+}
+
+a:hover{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#intro{
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+    color: white;
+
+    background-color:rgba(0, 0, 0, .8); 
+    border-radius: 10px;
+    padding: 3px 5px;
+    width: 500px;    
+    text-align: center;
+}
+
+@keyframes zButton{
+    from{}
+    to{font-weight: bolder;
+     text-shadow: yellow; }
+}
+
+#zodiacInfo{
+    margin-top: 40px;
+
+    display: inline-block;
+    color: white;
+    font-family: "Happy Monkey";
+    border: 3px dotted white;
+    width: 100px;
+    height: auto;
+
+    background: black;
+    
+    border-radius: 100px;
+    display: center;
+    
+   animation: zButton 1s infinite;
+}
+
+#zodiacInfo:hover{
+   color:mediumpurple;
+}
